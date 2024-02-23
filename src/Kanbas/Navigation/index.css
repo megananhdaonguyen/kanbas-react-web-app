@@ -1,0 +1,40 @@
+.wd-kanbas-navigation-react {
+    background-color: black;
+    list-style: none;
+    padding: 0px;  margin: 0px;
+    width: 88px;
+    height: 727px;
+  }
+  .wd-kanbas-navigation-react li {
+    padding: 10px;     margin-bottom: 0px;
+    font-size: 1em;  text-align: center;
+  }
+  .wd-kanbas-navigation-react li.wd-active {
+    background-color: white;
+  }
+  .wd-kanbas-navigation-react li.wd-active a {
+    color: red;
+  }
+  .wd-kanbas-navigation-react a {
+    color: red;
+    text-decoration: none;
+  }
+  .wd-kanbas-navigation-react a i {
+    font-size: 2em;
+    margin-bottom: 5px;
+    display: block;
+  }
+ 
+  .profile-logo a i{
+      color: white;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  body * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
