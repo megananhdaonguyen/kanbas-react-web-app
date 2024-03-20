@@ -37,8 +37,8 @@ function ModuleList() {
       </div>
       <ul className="list-group wd-modules">
         <li className="list-group-item">
-          <button className="inner-button-module" onClick={() => dispatch(addModule({ ...module, course: courseId }))}>Add</button>
-          <button className="inner-button-module" onClick={() => dispatch(updateModule(module))}>
+          <button className="add-button-module" onClick={() => dispatch(addModule({ ...module, course: courseId }))}>Add</button>
+          <button className="update-button-module" onClick={() => dispatch(updateModule(module))}>
             Update
           </button>
           <input value={module.name}
@@ -58,12 +58,12 @@ function ModuleList() {
               className="list-group-item"
               onClick={() => setSelectedModule(module)}>
               <button
-                className="inner-button-module"
+                className="edit-button-module"
                 onClick={() => dispatch(setModule(module))}>
                 Edit
               </button>
               <button
-                className="inner-button-module"
+                className="delete-button-module"
                 onClick={() => dispatch(deleteModule(module._id))}>
                 Delete
               </button>
