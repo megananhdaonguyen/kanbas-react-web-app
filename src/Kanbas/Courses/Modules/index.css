@@ -39,7 +39,10 @@
 
 .button-module {background-color: red; border-color: white; color: white;}
 
-.inner-button-module {border: 2px solid black;}
+.delete-button-module {padding: 2px solid black; background-color: red; border-color: white; color: white;}
+.edit-button-module {padding: 2px solid black; background-color: green; border-color: white; color: white;}
+.add-button-module {padding: 2px solid black; background-color: green; border-color: white; color: white;}
+.update-button-module {padding: 2px solid black; background-color: blue; border-color: white; color: white;}
 
 .div-header-module {background-color: lightgray;}
 
