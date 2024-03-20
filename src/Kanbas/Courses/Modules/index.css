@@ -39,6 +39,8 @@
 
 .button-module {background-color: red; border-color: white; color: white;}
 
+.inner-button-module {border: 2px solid black;}
+
 .div-header-module {background-color: lightgray;}
 
 .link {color: red;}

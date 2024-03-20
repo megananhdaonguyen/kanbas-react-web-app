@@ -10,7 +10,7 @@ import Home from "../Courses/Home";
 import Modules from "../Courses/Modules";
 import Assignments from "./Assignments";
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
     const { courseId } = useParams();
     const course = courses.find((course) => course._id === courseId);
     const { pathname } = useLocation();
