@@ -5,4 +5,18 @@ const username = 'alice';
 const greeting1 = `Welcome home ${username}`;
 const loggedIn = false;
 const greeting2 = `Logged in: ${loggedIn ? "Yes" : "No"}`;
-export default five
+
+function TemplateLiterals() {
+    return (
+        <>
+            <h3>
+                Template Literals
+            </h3>
+            result1 = {result1}<br />
+            result2 = {result2}<br />
+            greeting1 = {greeting1}<br />
+            greeting2 = {greeting2}<br />
+        </>
+    )
+}
+export default TemplateLiterals

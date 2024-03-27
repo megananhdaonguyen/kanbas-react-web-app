@@ -1,4 +1,4 @@
-function VariableTypes() {
+function BooleanVariables() {
     let numberVariable = 123, floatingPointNumber = 234.345;
     let true1 = true, false1 = false;
     let false2 = true1 && false1;
@@ -21,4 +21,4 @@ function VariableTypes() {
         </div>
     );
 }
-export default VariableTypes
+export default BooleanVariables
