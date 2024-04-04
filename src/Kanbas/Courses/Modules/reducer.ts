@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   modules: [] as { _id: string; name: string; description: string }[],
-  module: { name: "New Module", description: "New Description" },
+  module: { name: "New Module", description: "New Description", _id: "New ID" },
 };
 
 const modulesSlice = createSlice({
